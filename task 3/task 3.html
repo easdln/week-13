@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task 3.css">
+    <link rel="stylesheet" href="../assets/normalize.css">
+</head>
+<body>
+    <h1>Сервис комментариев со спам фильтром</h1>
+    <div class="servis">
+        <form method="get" class="form">
+            <div class="comment">Оставьте ваш комментарий</div>
+            <div class="wrapper-checkbox">
+                <fieldset>
+                    <legend>Показывать ваше имя?</legend>
+                    <label>
+                      <input type="radio" id="checkbox-yes" name="show-name">
+                      Yes
+                    </label>
+                    <label>
+                      <input type="radio" id="checkbox-no" name="show-name">
+                      No
+                    </label>
+                  </fieldset>
+            </div>
+            <div class="wrapper1 wrapper-user">
+                <label for="username" >Введите ваше имя:</label></br>
+                <input id="username" type="text" class="input" value=" "></br>
+            </div>
+            <div class="wrapper1">
+                <label for="avatar">Введите ссылку вашего аватара:</label></br>
+                <input type="text" id="avatar"></br>
+            </div>
+            <div class="wrapper1">
+                <label for="comment">
+                    Оставьте комментарий
+                </label></br>
+                <textarea id="comment" rows="5" cols="30"></textarea></br>
+            </div>
+            <button id="btn" class="btn">Отправить</button>
+    </form>
+    <div class="wrapper">
+        <div class="wrapper__chat">
+            <p class="chat">Чат</p>
+            <div class="container-chat">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./task 3.js"></script>
+</body>
+</html> 

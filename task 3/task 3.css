@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #899bb2;
+}
+h1 {
+   text-align: center;
+   margin: 50px;
+}
+.comment, .chat {
+   font-size: 25px;
+   font-weight: 700;
+   margin-bottom: 50px;
+}
+.servis {
+   margin: 60px;
+   display: grid;
+   grid-template: 1fr /  1fr 0.9fr;
+}
+
+p {
+   font-size: 10px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+.wrapper1 > *:not(:last-child) {
+   margin: 0 0 40px 0;
+}
+
+#username,
+#avatar,
+#comment {
+   width: 600px;
+   border: 0;
+   min-height: 30px;
+   padding: 10px;
+   margin-top: 10px;
+}
+
+label {
+   font-size: 16px;
+}
+.btn {
+   background: rgb(44, 57, 178);
+   border: 0;
+   padding: 10px;
+   width: 120px;
+   color: aliceblue;
+   cursor: pointer;
+}
+.wrapper__chat {
+   display: flex;
+   flex-direction: column;
+   overflow-y: scroll;
+   max-height: 500px;
+}
+
+.img {
+   width: 80px;
+   height: 80px;
+   object-fit: cover;
+}
+
+.wrapper-checkbox {
+   margin-bottom: 50px;
+}
+
+fieldset {
+   width: 600px;
+}
+
+legend {
+   font-size: 20px;
+}
+
+fieldset label {
+   margin: 80px;
+}
+
+.container-chat {
+   display: inline;
+}
+
+.container-chat1 {
+    border-bottom: 3px dashed black;
+}
+
+.container-chat1> *:not(:last-child) {
+    margin: 20px 0 0 0;
+}
+
+.text{
+    font-size: 17px;
+    font-weight: 700;
+}
